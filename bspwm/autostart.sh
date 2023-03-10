@@ -13,6 +13,7 @@ function run {
 #xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
+$HOME/.screenlayout/dual-monitor-work.sh &
 
 #$HOME/.config/polybar/launch.sh --forest &
 $HOME/.config/plbr/everforest/launch.sh &
@@ -42,7 +43,7 @@ xsetroot -cursor_name left_ptr &
 #conky -c $HOME/.config/bspwm/system-overview &
 #run variety &
 run nm-applet &
-run pamac-tray &
+#run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
 blueberry-tray &
