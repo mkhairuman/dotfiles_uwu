@@ -1,6 +1,6 @@
 # dotfiles_uwu
 
-![Ignore the black bar above the smaller screen.](/assets/images/forest.png)
+![Ignore the black bar above the smaller screen.](/assets/images/gruvuduvuduv.png)
 
 ## What
 As the name suggests, dotfiles_uwu is well, dotfiles. Specifically, the config files that I use to create my desktop.
