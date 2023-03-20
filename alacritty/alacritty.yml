@@ -106,50 +106,46 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    #family: MesloLGS NF
-    #family: Sarasa Term K
-    #family: monospace
-    #family: hack
-    family: JetBrainsMonoNl Nerd Font
+    family: Sarasa Term K
 
     # The `style` can be specified to pick a specific face.
-    style: Nerd
+    style: Regular
 
   # Bold font face
-  #bold:
+  bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: MesloLGS NF
+    family: Sarasa Term K
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold
+    style: Bold
 
   # Italic font face
-  #italic:
+  italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: hack
+    family: Sarasa Term K
 
     # The `style` can be specified to pick a specific face.
-    #style: Italic
+    style: Italic
 
   # Bold italic font face
-  #bold_italic:
+  bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: Sarasa Term K
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold Italic
+    style: Bold Italic
 
   # Point size
-  size: 10.0
+  size: 11.0
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
   # spacing.
@@ -173,32 +169,34 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (ArcoLinux)
 colors:
-  name: 3024 (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#090300"
-    foreground: "#a5a2a2"
-  cursor:
-    text: "#090300"
-    cursor: "#a5a2a2"
+    # hard contrast: background = '#1d2021'
+    background: '#282828'
+    # soft contrast: background = '#32302f'
+    foreground: '#ebdbb2'
+
+  # Normal colors
   normal:
-    black: "#090300"
-    red: "#db2d20"
-    green: "#01a252"
-    yellow: "#fded02"
-    blue: "#01a0e4"
-    magenta: "#a16a94"
-    cyan: "#b5e4f4"
-    white: "#a5a2a2"
+    black: '#282828'
+    red: '#cc241d'
+    green: '#98971a'
+    yellow: '#d79921'
+    blue: '#458588'
+    magenta: '#b16286'
+    cyan: '#689d6a'
+    white: '#a89984'
+
+  # Bright colors
   bright:
-    black: "#5c5855"
-    red: "#db2d20"
-    green: "#01a252"
-    yellow: "#fded02"
-    blue: "#01a0e4"
-    magenta: "#a16a94"
-    cyan: "#b5e4f4"
-    white: "#f7f7f7"
+    black: '#928374'
+    red: '#fb4934'
+    green: '#b8bb26'
+    yellow: '#fabd2f'
+    blue: '#83a598'
+    magenta: '#d3869b'
+    cyan: '#8ec07c'
+    white: '#ebdbb2'
 cursor:
   # Cursor style
   style:
@@ -691,140 +689,4 @@ cursor:
   #highlight_damage: false
 key_bindings:
   - { key: F11, action: ToggleFullscreen }
-# Define
-schemes:
-  everforest_dark_hard: &everforest_dark_hard
-    primary:
-      background: '#272e33'
-      foreground: '#d3c6aa'
-    normal:
-      black:   '#414b50'
-      red:     '#e67e80'
-      green:   '#a7c080'
-      yellow:  '#dbbc7f'
-      blue:    '#7fbbb3'
-      magenta: '#d699b6'
-      cyan:    '#83c092'
-      white:   '#d3c6aa'
-    bright:
-      black:   '#475258'
-      red:     '#e67e80'
-      green:   '#a7c080'
-      yellow:  '#dbbc7f'
-      blue:    '#7fbbb3'
-      magenta: '#d699b6'
-      cyan:    '#83c092'
-      white:   '#d3c6aa'
-  everforest_dark_medium: &everforest_dark_medium
-    primary:
-      background: '#2d353b'
-      foreground: '#d3c6aa'
-    normal:
-      black:   '#475258'
-      red:     '#e67e80'
-      green:   '#a7c080'
-      yellow:  '#dbbc7f'
-      blue:    '#7fbbb3'
-      magenta: '#d699b6'
-      cyan:    '#83c092'
-      white:   '#d3c6aa'
-    bright:
-      black:   '#475258'
-      red:     '#e67e80'
-      green:   '#a7c080'
-      yellow:  '#dbbc7f'
-      blue:    '#7fbbb3'
-      magenta: '#d699b6'
-      cyan:    '#83c092'
-      white:   '#d3c6aa'
-  everforest_dark_soft: &everforest_dark_soft
-    primary:
-      background: '#333c43'
-      foreground: '#d3c6aa'
-    normal:
-      black:   '#4d5960'
-      red:     '#e67e80'
-      green:   '#a7c080'
-      yellow:  '#dbbc7f'
-      blue:    '#7fbbb3'
-      magenta: '#d699b6'
-      cyan:    '#83c092'
-      white:   '#d3c6aa'
-    bright:
-      black:   '#4d5960'
-      red:     '#e67e80'
-      green:   '#a7c080'
-      yellow:  '#dbbc7f'
-      blue:    '#7fbbb3'
-      magenta: '#d699b6'
-      cyan:    '#83c092'
-      white:   '#d3c6aa'
-  everforest_light_hard: &everforest_light_hard
-    primary:
-      background: '#fffbef'
-      foreground: '#5c6a72'
-    normal:
-      black:   '#5c6a72'
-      red:     '#f85552'
-      green:   '#8da101'
-      yellow:  '#dfa000'
-      blue:    '#3a94c5'
-      magenta: '#df69ba'
-      cyan:    '#35a77c'
-      white:   '#e8e5d5'
-    bright:
-      black:   '#5c6a72'
-      red:     '#f85552'
-      green:   '#8da101'
-      yellow:  '#dfa000'
-      blue:    '#3a94c5'
-      magenta: '#df69ba'
-      cyan:    '#35a77c'
-      white:   '#e8e5d5'
-  everforest_light_medium: &everforest_light_medium
-    primary:
-      background: '#fdf6e3'
-      foreground: '#5c6a72'
-    normal:
-      black:   '#5c6a72'
-      red:     '#f85552'
-      green:   '#8da101'
-      yellow:  '#dfa000'
-      blue:    '#3a94c5'
-      magenta: '#df69ba'
-      cyan:    '#35a77c'
-      white:   '#e0dcc7'
-    bright:
-      black:   '#5c6a72'
-      red:     '#f85552'
-      green:   '#8da101'
-      yellow:  '#dfa000'
-      blue:    '#3a94c5'
-      magenta: '#df69ba'
-      cyan:    '#35a77c'
-      white:   '#e0dcc7'
-  everforest_light_soft: &everforest_light_soft
-    primary:
-      background: '#f3ead3'
-      foreground: '#5c6a72'
-    normal:
-      black:   '#5c6a72'
-      red:     '#f85552'
-      green:   '#8da101'
-      yellow:  '#dfa000'
-      blue:    '#3a94c5'
-      magenta: '#df69ba'
-      cyan:    '#35a77c'
-      white:   '#d8d3ba'
-    bright:
-      black:   '#5c6a72'
-      red:     '#f85552'
-      green:   '#8da101'
-      yellow:  '#dfa000'
-      blue:    '#3a94c5'
-      magenta: '#df69ba'
-      cyan:    '#35a77c'
-      white:   '#d8d3ba'
-
-# Apply
-colors: *everforest_dark_hard
+theme: Gruvbox-Dark

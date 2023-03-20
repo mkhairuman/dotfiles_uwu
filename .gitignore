@@ -1,3 +1,4 @@
+alacritty/alacritty.yml.16*
 archlinux-logout/
 archlinux-tweak-tool/
 arcolinux-welcome-app/
@@ -7,7 +8,6 @@ BetterDiscord\ Installer/
 binwalk/
 bpytop/
 BraveSoftware/
-bspwm/autostart.sh
 calcurse/
 cmus/
 Code/
@@ -25,11 +25,13 @@ gpick/
 gtk-2.0/
 gtk-3.0/
 htop/
+KeePass/
 Kingsoft/
 kitty/
 Kvantum/
 libfm/
 mimeapps.list
+.mono/
 Mousepad/
 nano/
 nitrogen/
