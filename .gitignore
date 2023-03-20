@@ -1,10 +1,13 @@
 archlinux-logout/
 archlinux-tweak-tool/
 arcolinux-welcome-app/
+audacity/
 BetterDiscord/
 BetterDiscord\ Installer/
+binwalk/
 bpytop/
 BraveSoftware/
+bspwm/autostart.sh
 calcurse/
 cmus/
 Code/
@@ -41,7 +44,9 @@ Postman/
 procps/
 pulse/
 qt5ct/
+QtProject.conf
 ranger/
+rizin/
 rofi/
 simple-update-notifier/
 spotify/
