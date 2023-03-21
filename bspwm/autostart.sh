@@ -13,6 +13,8 @@ function run {
 #xrandr --output LVDS1 --mode 1366x768 --output DP3 --mode 1920x1080 --right-of LVDS1
 #xrandr --output HDMI2 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off
 #autorandr horizontal
+xrandr --output LVDS1 --primary --mode 1366x768 --pos 1920x312 --rotate normal --output DP1 --off --output HDMI1 --mode 1920x1080 --pos 0x0 --rotate normal --output VGA2 --off --output VIRTUAL1 --off &
+
 #$HOME/.screenlayout/dual-monitor-work.sh &
 
 $HOME/.config/polybar/launch.sh --forest &
