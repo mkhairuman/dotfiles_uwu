@@ -1,6 +1,10 @@
-# dotfiles_uwu
+# dotfiles uwu owo xd rawr
 
-![Ignore the black bar above the smaller screen.](/assets/images/gruvuduvuduv.png)
+![LVDS1 is enough until you encounter HDMI1](/assets/images/industrial-1-LVDS1.png)
+
+[Here's how it looks with some applications](/assets/images/industrial-LVDS1.png)
+
+[And here's one on 1920x1080](/assets/images/industrial-HDMI1.png)
 
 ## What
 As the name suggests, dotfiles_uwu is well, dotfiles. Specifically, the config files that I use to create my desktop.
