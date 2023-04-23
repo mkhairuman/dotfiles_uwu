@@ -1,10 +1,6 @@
 # dotfiles uwu owo xd rawr
 
-![LVDS1 is enough until you encounter HDMI1](/assets/images/industrial-1-LVDS1.png)
-
-[Here's how it looks with some applications](/assets/images/industrial-LVDS1.png)
-
-[And here's one on 1920x1080](/assets/images/industrial-HDMI1.png)
+![LVDS1 is enough until you encounter HDMI1](/assets/images/nordt.png)
 
 ## What
 As the name suggests, dotfiles_uwu is well, dotfiles. Specifically, the config files that I use to create my desktop.
@@ -39,4 +35,6 @@ But I like typing. I like to hear the clacks of my keyboard.
 
 > Any other screenshots?
 
-Yes, maybe, not now.
+~~Yes, maybe, not now.~~
+
+Updated the main screenshot (and the whole repo) to Nord ~~since I don't really like gruvbox kek~~
