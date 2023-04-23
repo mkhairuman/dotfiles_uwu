@@ -9,6 +9,7 @@ binwalk/
 bpytop/
 BraveSoftware/
 calcurse/
+cef_user_data/
 cmus/
 Code/
 conky/
@@ -26,6 +27,8 @@ gpick/
 gtk-2.0/
 gtk-3.0/
 htop/
+Hacknet/
+inkscape/
 KeePass/
 Kingsoft/
 kitty/
@@ -52,6 +55,7 @@ ranger/
 rizin/
 rofi/
 simple-update-notifier/
+spicetify/
 spotify/
 Thunar/
 Trolltech.conf
