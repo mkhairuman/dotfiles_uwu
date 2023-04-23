@@ -113,7 +113,7 @@ super + n
 
 #dmenu
 super + space
-	dmenu_run -i -nb '#2e3440' -nf '#4dd0e1' -sb '#4dd0e1' -sf '#2e3440' -fn 'NotoMonoRegular:bold:pixelsize=14' -b
+	dmenu_run -i -nb '#3b4252' -nf '#ffffff' -sb '#ffffff' -sf '#000000' -fn 'SarasaFixedHC:regular:pixelsize=14' -b
 	#xfce4-appfinder
 #################################################################
 # SUPER + SHIFT KEYS
